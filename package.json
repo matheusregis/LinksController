@@ -1,0 +1,22 @@
+{
+  "name": "linkscontroller",
+  "version": "1.0.0",
+  "description": "LinksController",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusregis/LinksController.git"
+  },
+  "author": "Matheus Regis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusregis/LinksController/issues"
+  },
+  "homepage": "https://github.com/matheusregis/LinksController#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
