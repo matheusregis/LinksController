@@ -14,7 +14,7 @@
 <h2 align="center">Estrutura do App</h2>
 
 <h3>Backend</h3>
-    No projeto Back-End, foi utilizada a tecnologia NodeJS com o Express, junto com o banco de dados MySQL. Utilizando também o Sequelize, que é um ORM, baseado em promises, e que suporta vários dialetos, como PostgreSQL, MySQL, MariaDB, SQLite e MSSQL. O Sequelize possui um mecanismo de migração muito poderoso que pode transformar um esquema existente de banco de dados em uma nova versão e também fornece mecanismos de sincronização de banco de dados que podem criar estrutura de banco de dados especificando a estrutura do modelo.
+    No projeto Back-End, foi utilizada a tecnologia NodeJS com o Express, junto com o banco de dados MySQL instalado em um Docker. Utilizando também o Sequelize, que é um ORM, baseado em promises, e que suporta vários dialetos, como PostgreSQL, MySQL, MariaDB, SQLite e MSSQL. O Sequelize possui um mecanismo de migração muito poderoso que pode transformar um esquema existente de banco de dados em uma nova versão e também fornece mecanismos de sincronização de banco de dados que podem criar estrutura de banco de dados especificando a estrutura do modelo.
 
 <h4>Tecnologias Utilizadas</h4>
 <ul>
@@ -28,6 +28,9 @@
   <li>Nodemon</li>
   <li>Bcrypt</li>
   <li>Joi</li>
+  <li>Docker</li>
+  <li>REST Client</li>
+  
 </ul>
 
 <h4>Todas as Tecnologias Utilizadas no projeto</h4>
@@ -42,6 +45,8 @@
   <li>Nodemon</li>
   <li>Bcrypt</li>
   <li>Joi</li>
+  <li>Docker</li>
+  <li>REST Client</li>
 </ul>
 
 #### Se ainda não segue o emersonbroga, conheça as Redes Sociais
