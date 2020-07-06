@@ -43,3 +43,12 @@
   <li>Bcrypt</li>
   <li>Joi</li>
 </ul>
+
+#### Se ainda não segue o emersonbroga, conheça as Redes Sociais
+
+
+[![instagram.com/emersonbrogadev](https://raw.githubusercontent.com/emersonbroga/social-media-snippets/master/static/instagram.png)](https://emersonbroga.com/instagram)
+[![youtube.com/c/emersonbrogadev](https://raw.githubusercontent.com/emersonbroga/social-media-snippets/master/static/youtube.png)](https://emersonbroga.com/youtube)
+[![facebook.com/emersonbrogadev](https://raw.githubusercontent.com/emersonbroga/social-media-snippets/master/static/facebook.png)](https://emersonbroga.com/facebook)
+[![twitter.com/emersonbrogadev](https://raw.githubusercontent.com/emersonbroga/social-media-snippets/master/static/twitter.png)](https://emersonbroga.com/twitter)
+[![github.com/emersonbroga](https://raw.githubusercontent.com/emersonbroga/social-media-snippets/master/static/github.png)](https://emersonbroga.com/github)
