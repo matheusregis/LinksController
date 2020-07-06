@@ -1,5 +1,5 @@
 const Joi = require('@hapi/joi')
-const { getValidatorError } = require('../helpers/messages')
+const { getValidatorError } = require('../helpers/validator')
 
 const rules = {
     email: Joi.string().email().required(),
