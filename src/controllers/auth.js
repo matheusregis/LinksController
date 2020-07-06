@@ -16,8 +16,8 @@ router.post('/sign-in', accountSignIn, async (req, res) => {
     const match = account ? bcrypt.compareSync(password, account.password) : null
     if (!match) return res.jsonBadRequest(null, getMessage('account.signin.invalid'))
 
-    const token = generateJwt({id: account.id})
-    const refreshToken = generateRefreshJwt({id: account.id})
+    const token = generateJwt({ id: account.id })
+    const refreshToken = generateRefreshJwt({ id: account.id, version: account.jwtVersion })
 
     return res.jsonOK(account, getMessage('account.signin.sucess'), { token, refreshToken })
 })
@@ -31,8 +31,8 @@ router.post('/sign-up', accountSignUp ,async (req, res) => {
     const hash = bcrypt.hashSync(password, saltRounds)
     const newAccount = await Account.create({ email, password: hash })
 
-    const token = generateJwt({id: newAccount.id})
-    const refreshToken = generateRefreshJwt({id: newAccount.id})
+    const token = generateJwt({ id: newAccount.id })
+    const refreshToken = generateRefreshJwt({ id: newAccount.id, version: newAccount.jwtVersion })
 
     return res.jsonOK(newAccount, getMessage('account.signup.sucess'), { token, refreshToken })
 })
